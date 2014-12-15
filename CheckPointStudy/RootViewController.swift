@@ -12,7 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        println("My first line in swift");
         // Do any additional setup after loading the view, typically from a nib.
     }
 
