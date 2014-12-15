@@ -13,6 +13,7 @@
 		7E80D4491A3EC9270003477E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E80D4481A3EC9270003477E /* Images.xcassets */; };
 		7E80D44C1A3EC9270003477E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E80D44A1A3EC9270003477E /* LaunchScreen.xib */; };
 		7E80D4581A3EC9270003477E /* CheckPointStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D4571A3EC9270003477E /* CheckPointStudyTests.swift */; };
+		7E80D4621A3ECA900003477E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E80D4611A3ECA900003477E /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7E80D4511A3EC9270003477E /* CheckPointStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckPointStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E80D4561A3EC9270003477E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E80D4571A3EC9270003477E /* CheckPointStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPointStudyTests.swift; sourceTree = "<group>"; };
+		7E80D4611A3ECA900003477E /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				7E80D4411A3EC9270003477E /* AppDelegate.swift */,
 				7E80D4431A3EC9270003477E /* ViewController.swift */,
+				7E80D4611A3ECA900003477E /* Model.swift */,
 				7E80D4451A3EC9270003477E /* Main.storyboard */,
 				7E80D4481A3EC9270003477E /* Images.xcassets */,
 				7E80D44A1A3EC9270003477E /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E80D4621A3ECA900003477E /* Model.swift in Sources */,
 				7E80D4441A3EC9270003477E /* ViewController.swift in Sources */,
 				7E80D4421A3EC9270003477E /* AppDelegate.swift in Sources */,
 			);
